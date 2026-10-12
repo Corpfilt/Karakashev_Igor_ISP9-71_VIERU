@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender">
+    <TextView
+        android:id="@+id/txtRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="25dp" android:layout_marginEnd="25dp"
+        android:text="@string/random_rannum"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-light"
+        android:textSize="23sp" />
+    <TextView
+        android:id="@+id/txtRandomResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/random_zero"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-light"
+        android:textSize="138sp" />
+</FrameLayout>

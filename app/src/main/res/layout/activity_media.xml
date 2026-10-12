@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/lavender">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp" android:paddingEnd="30dp"
+        android:paddingTop="70dp" android:paddingBottom="36dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            style="@style/Kval.SectionHeading"
+            android:text="@string/media_video"
+            android:layout_marginBottom="24dp" />
+        <!-- Real visual asset from Figma: teal surface with shadow and icon -->
+        <ImageView
+            android:id="@+id/videoPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:src="@drawable/image"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/media_image_description" />
+        <TextView
+            style="@style/Kval.SectionHeading"
+            android:text="@string/media_audio"
+            android:layout_marginTop="32dp" />
+        <SeekBar
+            android:id="@+id/audioProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="23dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/black"
+            android:progressBackgroundTint="@color/black"
+            android:thumbTint="@color/black"
+            android:contentDescription="@string/media_progress_description" />
+        <Button android:id="@+id/btnPlay" style="@style/Kval.AudioButton"
+            android:text="@string/media_play" />
+        <Button android:id="@+id/btnPause" style="@style/Kval.AudioButton"
+            android:layout_marginTop="5dp" android:text="@string/media_pause" />
+        <Button android:id="@+id/btnStop" style="@style/Kval.AudioButton"
+            android:layout_marginTop="5dp" android:text="@string/media_stop" />
+    </LinearLayout>
+</ScrollView>

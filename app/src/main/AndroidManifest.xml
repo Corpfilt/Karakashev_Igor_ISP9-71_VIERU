@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kval25Ivanov">
+
+        <!-- Экран случайного числа 2 -->
+        <activity
+            android:name=".Random2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Экран случайного числа 1 -->
+        <activity
+            android:name=".Random1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Экран медиа -->
+        <activity
+            android:name=".Media"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Экран профиля -->
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Главное меню -->
+        <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Стартовый экран -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ivanov Maxim ISP9-71 Vier_y</string>
+    <string name="name_splash">HELLO</string>
+    <string name="splash_description">HELLO — экран загрузки</string>
+    <string name="cloud_description">Декоративное облако</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_media">Медиа</string>
+    <string name="menu_random">Рандомное число</string>
+    <string name="menu_exit">Выход</string>
+    <string name="profile_name">Имя</string>
+    <string name="profile_nick">Ник</string>
+    <string name="profile_bday">Дата рождения</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_image_description">Изображение профиля</string>
+    <string name="media_video">Видео</string>
+    <string name="media_audio">Аудио</string>
+    <string name="media_play">Пуск</string>
+    <string name="media_pause">Пауза</string>
+    <string name="media_stop">Стоп</string>
+    <string name="media_image_description">Изображение видеоплеера</string>
+    <string name="media_placeholder_notice">Видео — только макет</string>
+    <string name="media_progress_description">Демонстрационная полоса аудио</string>
+    <string name="random_plus">+</string>
+    <string name="random_minus">−</string>
+    <string name="random_getnum">Получить число</string>
+    <string name="random_zero">0</string>
+    <string name="random_rannum">Это случайное число между 0 и 999</string>
+</resources>

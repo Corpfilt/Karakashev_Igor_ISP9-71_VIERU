@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button android:id="@+id/btnProfile"
+            style="@style/Kval.MenuButton" android:text="@string/menu_profile" />
+        <Button android:id="@+id/btnMedia"
+            style="@style/Kval.MenuButton" android:layout_marginTop="12dp"
+            android:text="@string/menu_media" />
+        <Button android:id="@+id/btnRandom"
+            style="@style/Kval.MenuButton" android:layout_marginTop="12dp"
+            android:textSize="21sp" android:text="@string/menu_random" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnExit"
+        style="@style/Kval.MenuButton"
+        android:layout_width="273dp"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/btn_exit"
+        android:backgroundTint="@null"
+        android:text="@string/menu_exit" />
+</FrameLayout>

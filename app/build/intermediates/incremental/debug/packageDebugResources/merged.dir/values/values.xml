@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#18131F</color>
+    <color name="lavender">#D9C7E7</color>
+    <color name="orange">#F4A62C</color>
+    <color name="splash_purple">#7711DD</color>
+    <color name="turquoise">#17D6C2</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Ivanov Maxim ISP9-71 Vier_y</string>
+    <string name="cloud_description">Декоративное облако</string>
+    <string name="media_audio">Аудио</string>
+    <string name="media_image_description">Изображение видеоплеера</string>
+    <string name="media_pause">Пауза</string>
+    <string name="media_placeholder_notice">Видео — только макет</string>
+    <string name="media_play">Пуск</string>
+    <string name="media_progress_description">Демонстрационная полоса аудио</string>
+    <string name="media_stop">Стоп</string>
+    <string name="media_video">Видео</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_media">Медиа</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_random">Рандомное число</string>
+    <string name="name_splash">HELLO</string>
+    <string name="profile_bday">Дата рождения</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_image_description">Изображение профиля</string>
+    <string name="profile_name">Имя</string>
+    <string name="profile_nick">Ник</string>
+    <string name="random_getnum">Получить число</string>
+    <string name="random_minus">−</string>
+    <string name="random_plus">+</string>
+    <string name="random_rannum">Это случайное число между 0 и 999</string>
+    <string name="random_zero">0</string>
+    <string name="splash_description">HELLO — экран загрузки</string>
+    <style name="Kval.AudioButton" parent="">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/bg_yellow_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/permanent_marker</item>
+    </style>
+    <style name="Kval.MenuButton" parent="">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/bg_yellow_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/permanent_marker</item>
+    </style>
+    <style name="Kval.ProfileField" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/bg_field</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/permanent_marker</item>
+    </style>
+    <style name="Kval.SectionHeading" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/permanent_marker</item>
+    </style>
+    <style name="Theme.Kval25Ivanov" parent="android:style/Theme.Material.Light.NoActionBar">
+
+        <item name="android:fontFamily">@font/permanent_marker</item>
+        <item name="android:colorAccent">#F0A32C</item>
+        <item name="android:statusBarColor">#D9C8E8</item>
+        <item name="android:navigationBarColor">#D9C8E8</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+</resources>

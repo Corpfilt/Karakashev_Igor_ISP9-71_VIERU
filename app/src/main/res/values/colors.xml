@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_purple">#7711DD</color>
+    <color name="lavender">#D9C7E7</color>
+    <color name="orange">#F4A62C</color>
+    <color name="turquoise">#17D6C2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#18131F</color>
+</resources>

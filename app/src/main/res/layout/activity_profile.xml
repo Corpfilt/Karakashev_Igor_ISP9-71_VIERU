@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/lavender">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp" android:paddingEnd="24dp"
+        android:paddingTop="72dp" android:paddingBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image"
+            android:contentDescription="@string/profile_image_description" />
+        <EditText
+            android:id="@+id/editName"
+            style="@style/Kval.ProfileField"
+            android:layout_marginTop="34dp"
+            android:hint="@string/profile_name"
+            android:inputType="textCapWords" />
+        <EditText
+            android:id="@+id/editNick"
+            style="@style/Kval.ProfileField"
+            android:layout_marginTop="18dp"
+            android:hint="@string/profile_nick"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/editBirthday"
+            style="@style/Kval.ProfileField"
+            android:layout_marginTop="18dp"
+            android:hint="@string/profile_bday"
+            android:inputType="date" />
+        <EditText
+            android:id="@+id/editEmail"
+            style="@style/Kval.ProfileField"
+            android:layout_marginTop="18dp"
+            android:hint="@string/profile_email"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+</ScrollView>
